@@ -1,0 +1,37 @@
+.root{
+	-fx-base: rgb(35, 53, 169);
+	-fx-background: rgb(183, 214, 248);
+	-fx-font-size: 14;
+	-fx-text-fill: blue;
+	-fx-font-family: Serif;
+}
+
+.button:hover{
+	-fx-background-color: rgb(72, 104, 193);
+	-fx-text-fill: white; 
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow(one-pass-box, rgb(12, 0, 62), 8, 0.0, 2, 0);
+}
+
+.text-field{
+	-fx-background-color: white;
+	-fx-text-fill: black;
+}
+/*check grades dialog*/
+.context-menu {
+    -fx-background-color: #f0f4ff;       
+    -fx-border-color: #4762d3;           
+}
+
+.menu-item {
+    -fx-background-color: transparent;
+}
+
+.menu-item .label {
+    -fx-text-fill: #1f1f2e;             
+}
+
+.menu-item:hover {
+    -fx-background-color: #c7d7ff;       
+}
+
